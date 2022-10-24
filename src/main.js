@@ -10,7 +10,7 @@ function setCardType(type) {
     visa: ["#436D99", "#2d57f2"],
     mastercard: ["#DF6F29", "#C69347"],
     elo: ["#442C61", "#9C44DC"],
-    default: ["#black", "grey"],
+    default: ["black", "grey"],
   }
   bgColor1.setAttribute("fill", colors[type][0])
   bgColor2.setAttribute("fill", colors[type][1])
